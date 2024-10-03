@@ -6,17 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+
+<header>
         <h1>Шапка</h1>
     </header>
 
     <main>
         <p>мейн</p>
-        <a href="">home</a>
     </main>
 
     <footer>
-
+    <p>Кондратьев 2024</p>
     </footer>
+
 </body>
 </html>
