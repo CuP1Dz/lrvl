@@ -7,16 +7,15 @@
 </head>
 <body>
     <header>
-        <h1>Шапка</h1>
+        шапка
     </header>
 
     <main>
-        <p>мейн</p>
-        <a href="">home</a>
+        @yield('content')
     </main>
 
     <footer>
-
+        © Кондратьев Дмитрий 2024г
     </footer>
 </body>
 </html>
