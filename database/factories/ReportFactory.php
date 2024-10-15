@@ -25,6 +25,8 @@ class ReportFactory extends Factory
             'id' => fake()->Id(),
             'created_at' => fake()-> created_At(),
             'updated_at' => fake()-> updated_At(),
+            'description'=> fake()->Description(),
+            'number' => fake() -> Number()
         ];
     }
 }

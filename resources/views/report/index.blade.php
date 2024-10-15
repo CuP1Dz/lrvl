@@ -7,17 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="grid">
-        @foreach($reports as $item)
+<h1>Reports</h1>
+<div class="grid">
+        @foreach($report as $item)
                 <div class="card__container">
                     <div class="text__container">
-                        <p>{{ $item['id'] }}</p>
-                        <p>{{ $item['created_at'] }}</p>
-                        <p>{{ $item['updated_at'] }}</p>
+                        <p>{{ $item->id }}</p>
+                        <p>{{ $item->number }}</p>
                     </div>
                 </div>
-    @endforeach
-    </div>
+        @endforeach
+</div>
+
+    {{ $report->links() }}
     
 </body>
 </html>

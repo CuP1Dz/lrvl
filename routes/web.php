@@ -12,4 +12,4 @@ Route::get('/',[MainController::class,  'showIndex']) -> name('home');
 
 Route::get('/array', [MainController::class, 'showArray']) -> name('array');
 
-Route::get('/reports', [ReportController::class, 'index']) -> name('report.index');
+Route::get('/report', [ReportController::class, 'index']) -> name('report.index');
