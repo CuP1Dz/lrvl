@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        шапка
+        Нарушений нет
     </header>
 
     <main>

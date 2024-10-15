@@ -9,9 +9,10 @@ use Illuminate\Support\Facades\DB;
 class ReportController extends Controller{
 
     public function index(){
-        $report = Report::paginate(10);
-        dd($report);
-        return view('report.index', ['report' => $report]);
+
+        $reports = Report::all();
+        return view('report.index', compact('reports'));
+
     }
     
         // $report = Report::all();
