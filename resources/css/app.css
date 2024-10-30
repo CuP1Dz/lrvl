@@ -4,6 +4,10 @@
 
 li{
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 200px);
     gap: 20%;
+    padding-bottom: 30px;    
+}
+.btn{
+    border: 1px solid black;
 }
